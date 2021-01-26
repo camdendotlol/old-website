@@ -1,0 +1,45 @@
+baseURL = "https://camdenmecklem.com"
+languageCode = "en-us"
+title = "Camden Mecklem 🏺"
+theme = "origin"
+publishDir = "docs"
+
+[params]
+  description = "literature and programming"
+  featured = true
+  cssonly = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "🏠 home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "github"
+    name = "💻 github"
+    url = "https://github.com/mythmakerseven"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "amazon-wishlist"
+    name = "🛍️ amazon wishlist"
+    url = "https://www.amazon.com/hz/wishlist/ls/1G2J9M8GI8CN2?ref_=wl_share"
+    weight = 3
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe = true
+
