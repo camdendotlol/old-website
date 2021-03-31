@@ -16,19 +16,24 @@ publishDir = "docs"
     name = "🏠 home"
     url = "/"
     weight = 1
+
+  [[menu.main]]
+    identifier = "résumé"
+    name = "📋 résumé"
+    url = "/resume.pdf"
+    weight = 2
   
   [[menu.main]]
     identifier = "github"
     name = "💻 github"
     url = "https://github.com/mythmakerseven"
-    weight = 2
+    weight = 3
     
   [[menu.main]]
-    identifier = "amazon-wishlist"
-    name = "🛍️ amazon wishlist"
+    identifier = "amazon"
+    name = "🛍️ amazon"
     url = "https://www.amazon.com/hz/wishlist/ls/1G2J9M8GI8CN2?ref_=wl_share"
-    weight = 3
-
+    weight = 4
 
 [taxonomies]
   category = "categories"
